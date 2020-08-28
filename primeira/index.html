@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Preciso pensar em um nome</title>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <div class="left-side">
+        <div class="input-block">
+            <textarea class="input" id="temperatures" placeholder="Exemplo: 250, 320, 3123,-20...."></textarea>
+            <select class="input" id="in-measures">
+                <option value="celsius">Celsius</option>
+                <option value="kelvin">Kelvin</option>
+                <option value="fahrenheit">Fahrenheit</option>
+            </select>
+            <img class="play" src="assets/download.svg"/>
+            <select class="input" id="out-measures">
+                <option value="celsius">Celsius</option>
+                <option value="kelvin">Kelvin</option>
+                <option value="fahrenheit">Fahrenheit</option>
+            </select>
+            <button class="primary-btn" id="to-convert-btn">Converter</button>
+            <button class="primary-btn" id="reset">Zerar</button>
+        </div>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </div>
+    <div id="visor-block" class="visor-block">
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
